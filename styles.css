@@ -11,10 +11,11 @@ hr {
 }
 
 #ph-img {
-    max-height: 400px;
-    max-width: 400px;
+    max-width: 300px;
+    width: 100%;
+    margin: 1rem;
+    height: auto;
     float: left;
-    margin: 0.5rem;
 }
 
 .list-group {
