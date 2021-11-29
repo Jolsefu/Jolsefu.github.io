@@ -18,11 +18,6 @@ hr {
     float: left;
 }
 
-.carousel .carousel-inner img {
-    display:block;
-    object-fit: cover;
-}
-
 .list-group {
     max-width: 400px;
 }
