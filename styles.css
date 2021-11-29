@@ -66,6 +66,8 @@ hr {
 .carousel-item img {
     max-height: 550px !important;
     max-width: 850px !important;
+    height: auto;
+    width: auto;
 }
 
 .hobby-carousel {
