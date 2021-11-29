@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device, initial-scale=1">
+        <link href="styles.css" rel="stylesheet">
+        <link rel="icon" href="images/jules.png">
+        <title>Jules' Homepage</title>
+    </head>
+    <body>
+        <div class="navigation">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                <a class="navbar-brand" href="hobbies.html">Hobbies</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="hobbies.html" class="nav-link">Hobbies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="hobby-carousel">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner my-4">
+                    <div class="carousel-item active" data-interval="3000">
+                        <div class="d-flex justify-content-center">
+                            <img src="images/minecraft.png" class="d-block w-75" alt="a picture of me and my friends in minecraft">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5><a href="#minecraft">Gaming</a></h5>
+                                <p>This is a picture of me and my friends playing Minecraft in a server we made together.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="3000">
+                        <div class="d-flex justify-content-center">
+                            <img src="images/music.png" class="d-block w-75 img-fluid" alt="my playlists">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5><a href="#music">Music</a></h5>
+                                <p>This is a preview of my playlists in Spotify. Music helps me get through the day.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="3000">
+                        <div class="d-flex justify-content-center">
+                            <img src="images/first-program.png" class="d-block w-50 img-fluid" alt="my first ever program">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5><a href="#programming">Programming</a></h5>
+                                <p>First Python program I made that checks quizzes for you!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hobbies">
+            <div class="jumbotron">
+                <img src="images/minecraft.png" alt="best minecraft players i met online" class="hobby-img rounded img-fluid" id="gaming">
+                <h1 class="display-4"><span class="badge badge-dark" id="minecraft">Gaming</span></h1>
+                <p class="hobby-description">I started playing Minecraft in the year 2013, ever since then I explored servers and met some pretty cool people. I fell in love with the concept of Minecraft, you can almost do anything. You can make machines, build anything, mess with the own game even, and with that this game helped me find my passion of creating, inventing, and designing machines. It helped me discover that I was truly an engineer.</p>
+            </div>
+            <hr class="hr-hobby">
+            <div class="jumbotron">
+                <img src="images/first-program.png" alt="my first ever program" class="hobby-img rounded img-fluid" id="programming">
+                <h1 class="display-4"><span class="badge badge-dark">Programming</span></h1>
+                <p class="hobby-description">Programming later then became one of my favorite hobbies. It fulfilled my passion of being able to invent almost anything. Although in the past, the idea of it was very overwhelming to me. I gave it a shot and tried it, I was very lucky that I was in the age where searching for tutorials about Programming on Youtube or in Google was available. Then, eventually I got the hang of it by keeping on practicing and practicing, step by step.</p>
+            </div>
+            <hr class="hr-hobby">
+            <div class="jumbotron">
+                <img src="images/music.png" alt="my spotify playlist" class="hobby-img rounded img-fluid" id="music">
+                <h1 class="display-4"><span class="badge badge-dark">Music</span></h1>
+                <p class="hobby-description">I eventually found Music as one of my favorite hobbies after Gaming. It constantly lifts my mood up when I'm doing a task whether it be easy or complicated like studying. It keeps my day going even when the particular days are tough.</p>
+            </div>
+        </div>
+    </body>
+</html>
